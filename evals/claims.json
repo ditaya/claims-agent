@@ -1,0 +1,74 @@
+[
+  {
+    "id": "C01",
+    "claim_text": "My policy is POL-1001. I was rear-ended at a red light on 2026-09-10 and need $2,000 in bumper repairs.",
+    "expected_decision": "approve",
+    "notes": "Active auto policy, ordinary collision, well within limit, no exclusions, no fraud signals."
+  },
+  {
+    "id": "C02",
+    "claim_text": "Policy POL-1002. A pipe burst in my upstairs bathroom on 2026-08-15 and caused about $5,000 in damage to the ceiling below.",
+    "expected_decision": "approve",
+    "notes": "Active home policy; burst-pipe water damage is not the same peril as the flood/earthquake exclusions."
+  },
+  {
+    "id": "C03",
+    "claim_text": "Policy POL-1004. I had knee surgery after a fall on 2026-07-20, total billed cost $8,000.",
+    "expected_decision": "approve",
+    "notes": "Active health policy, non-cosmetic/non-experimental procedure, within the $50,000 limit."
+  },
+  {
+    "id": "C04",
+    "claim_text": "Policy POL-1009. Hospital stay for pneumonia on 2026-06-01, total cost $15,000.",
+    "expected_decision": "approve",
+    "notes": "Active health policy, $0 deductible, well within the $100,000 limit, no exclusions apply."
+  },
+  {
+    "id": "C05",
+    "claim_text": "Policy POL-1003. I was in a fender bender on 2026-09-02 and want to claim $4,000 for repairs.",
+    "expected_decision": "deny",
+    "notes": "Policy status is lapsed - no coverage in force at the time of the incident."
+  },
+  {
+    "id": "C06",
+    "claim_text": "Policy POL-1007. A storm damaged my roof on 2026-08-25, requesting $12,000.",
+    "expected_decision": "deny",
+    "notes": "Policy status is cancelled."
+  },
+  {
+    "id": "C07",
+    "claim_text": "Policy POL-1008. I crashed during an amateur track racing event on 2026-09-01, damage is about $9,000.",
+    "expected_decision": "deny",
+    "notes": "Racing is an explicit exclusion on this policy."
+  },
+  {
+    "id": "C08",
+    "claim_text": "Policy POL-1005. My dog chewed through the carpet and a couch leg, repair/replacement cost about $1,200.",
+    "expected_decision": "deny",
+    "notes": "Pet damage is an explicit exclusion on this renters policy."
+  },
+  {
+    "id": "C09",
+    "claim_text": "Policy POL-1006. Totaled the car in a single-vehicle accident on 2026-09-23, the day after I got the policy, claiming the full $10,000 limit. No witnesses, and I already had the wreck towed and scrapped before anyone could look at it.",
+    "expected_decision": "escalate",
+    "notes": "Stacks three signals - claim days after inception, at the full policy limit, plus vague/unverifiable language and a disposed-of vehicle - that together should clearly warrant human review, not a judgment call."
+  },
+  {
+    "id": "C10",
+    "claim_text": "Policy POL-2047. My car was totaled in a flood on 2026-09-01, claiming the full $30,000 value.",
+    "expected_decision": "escalate",
+    "notes": "Policy number does not exist in the book - lookup_policy fails, so the agent should escalate rather than guess."
+  },
+  {
+    "id": "C11",
+    "claim_text": "Policy POL-1002. My home was burglarized on 2026-09-05, lost about $6,000 in electronics. Paid the repair guy in cash, no receipt, no witnesses saw anything.",
+    "expected_decision": "escalate",
+    "notes": "Active, in-scope claim, but the description is full of vague/unverifiable fraud-signal language - should go to a human adjuster rather than auto-approve."
+  },
+  {
+    "id": "C12",
+    "claim_text": "Policy POL-1010. My laptop was stolen on 2026-09-10 - well, actually I think I just misplaced it, but I'd still like to file for $2,000.",
+    "expected_decision": "escalate",
+    "notes": "Claimant's own story is self-contradictory (stolen vs. misplaced) - ambiguous enough to need human judgment."
+  }
+]

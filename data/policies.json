@@ -1,0 +1,112 @@
+[
+  {
+    "policy_number": "POL-1001",
+    "holder_name": "Jane Doe",
+    "coverage_type": "auto",
+    "coverage_limit": 25000,
+    "deductible": 500,
+    "status": "active",
+    "effective_date": "2024-01-01",
+    "expiration_date": "2026-12-31",
+    "exclusions": ["racing", "commercial use"]
+  },
+  {
+    "policy_number": "POL-1002",
+    "holder_name": "Marcus Lee",
+    "coverage_type": "home",
+    "coverage_limit": 300000,
+    "deductible": 1000,
+    "status": "active",
+    "effective_date": "2023-06-15",
+    "expiration_date": "2027-06-15",
+    "exclusions": ["flood", "earthquake"]
+  },
+  {
+    "policy_number": "POL-1003",
+    "holder_name": "Priya Nair",
+    "coverage_type": "auto",
+    "coverage_limit": 20000,
+    "deductible": 500,
+    "status": "lapsed",
+    "effective_date": "2022-01-01",
+    "expiration_date": "2023-01-01",
+    "exclusions": []
+  },
+  {
+    "policy_number": "POL-1004",
+    "holder_name": "Carlos Mendez",
+    "coverage_type": "health",
+    "coverage_limit": 50000,
+    "deductible": 250,
+    "status": "active",
+    "effective_date": "2025-01-01",
+    "expiration_date": "2026-12-31",
+    "exclusions": ["cosmetic procedures", "experimental treatment"]
+  },
+  {
+    "policy_number": "POL-1005",
+    "holder_name": "Aisha Khan",
+    "coverage_type": "renters",
+    "coverage_limit": 15000,
+    "deductible": 250,
+    "status": "active",
+    "effective_date": "2024-03-01",
+    "expiration_date": "2027-03-01",
+    "exclusions": ["pet damage"]
+  },
+  {
+    "policy_number": "POL-1006",
+    "holder_name": "Oliver Smith",
+    "coverage_type": "auto",
+    "coverage_limit": 10000,
+    "deductible": 1000,
+    "status": "active",
+    "effective_date": "2026-09-20",
+    "expiration_date": "2027-09-20",
+    "exclusions": ["racing"]
+  },
+  {
+    "policy_number": "POL-1007",
+    "holder_name": "Grace Kim",
+    "coverage_type": "home",
+    "coverage_limit": 250000,
+    "deductible": 1000,
+    "status": "cancelled",
+    "effective_date": "2020-01-01",
+    "expiration_date": "2021-01-01",
+    "exclusions": []
+  },
+  {
+    "policy_number": "POL-1008",
+    "holder_name": "Daniel Osei",
+    "coverage_type": "auto",
+    "coverage_limit": 50000,
+    "deductible": 500,
+    "status": "active",
+    "effective_date": "2021-05-01",
+    "expiration_date": "2027-05-01",
+    "exclusions": ["commercial use", "racing"]
+  },
+  {
+    "policy_number": "POL-1009",
+    "holder_name": "Elena Petrova",
+    "coverage_type": "health",
+    "coverage_limit": 100000,
+    "deductible": 0,
+    "status": "active",
+    "effective_date": "2024-11-01",
+    "expiration_date": "2026-11-01",
+    "exclusions": []
+  },
+  {
+    "policy_number": "POL-1010",
+    "holder_name": "Tom Walsh",
+    "coverage_type": "renters",
+    "coverage_limit": 20000,
+    "deductible": 500,
+    "status": "active",
+    "effective_date": "2023-08-01",
+    "expiration_date": "2027-08-01",
+    "exclusions": ["water damage"]
+  }
+]
